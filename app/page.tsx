@@ -53,6 +53,11 @@ setLoading(false);
 return (
 <main style={{ minHeight: "100vh", background: BG, color: TEXT, fontFamily: "monospace", padding: "40px 20px" }}>
 <div style={{ maxWidth: "900px", margin: "0 auto" }}>
+    <div style={{ display: 'flex', justifyContent: 'flex-end', marginBottom: '16px' }}>
+<a href="/pricing" style={{ padding: '8px 16px', background: ACCENT, color: '#000', borderRadius: '8px', textDecoration: 'none', fontSize: '14px', fontWeight: 'bold', fontFamily: 'monospace' }}>
+Upgrade to Pro →
+</a>
+</div>
 <h1 style={{ fontSize: "42px", fontWeight: "bold", marginBottom: "8px" }}>
 Resume<span style={{ color: ACCENT }}>AI</span>
 </h1>
